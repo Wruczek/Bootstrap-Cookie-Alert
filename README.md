@@ -32,7 +32,7 @@ If someone know, please email me or create an issue. I would love to credit the 
 ```html
 <script src="cookiealert-standalone.js"></script>
 ```
-> **Note:**  
-> Use the dependency version only if you already included jQuery and jsCookie.
-
 ### Take a look at [`demo.html`](https://github.com/Wruczek/Bootstrap-Cookie-Alert/blob/gh-pages/demo.html) for a working example
+
+**Note:**  
+Both `standalone` and `dependency` versions accomplish the same. The `dependency` version is a little bit smaller and cleaner, but requires `jQuery` and `jsCookie`. Use it only if you already have those libraries included on your site. If not, it is strongly recommended to omit loading additional libraries and go with the `standalone` version.
