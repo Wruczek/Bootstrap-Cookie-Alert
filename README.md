@@ -1,5 +1,5 @@
 # Bootstrap-Cookie-Alert
-A simple, good looking cookie alert build for Bootstrap 4. No depedency.
+A simple, good looking cookie alert build for Bootstrap 4. No dependencies required.
 
 [Demo](https://wruczek.github.io/Bootstrap-Cookie-Alert/demo)
 
