@@ -6,6 +6,9 @@ A simple, good looking cookie alert build for Bootstrap 4. No dependencies requi
 I unfortunately dont remeber the source of the cubes pattern :(
 If someone know, please email me or create an issue. I would love to credit the author.
 
+## npm package
+`npm i bootstrap-cookie-alert`
+I try to keep it up-to-date. Let me know if I forget to release an update.
 
 ## How to use
 #### 1. In the `head` of your document, include `cookiealert.css` **after Bootstrap**.
