@@ -7,7 +7,7 @@ I unfortunately dont remeber the source of the cubes pattern :(
 If someone know, please email me or create an issue. I would love to credit the author.
 
 ## npm package
-`npm i bootstrap-cookie-alert`
+`npm i bootstrap-cookie-alert`<br>
 I try to keep it up-to-date. Let me know if I forget to release an update.
 
 ## How to use
