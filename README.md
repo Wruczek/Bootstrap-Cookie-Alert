@@ -1,7 +1,8 @@
 # Bootstrap-Cookie-Alert
-A simple, good looking cookie alert build for Bootstrap 4. No dependencies required.
+A simple, good looking cookie alert for Bootstrap. No dependencies required.<br>
+**We recommend using Bootstrap 4**, but Boostrap 3 should work fine as well.
 
-[Demo](https://wruczek.github.io/Bootstrap-Cookie-Alert/demo)
+[**Demo**](https://wruczek.github.io/Bootstrap-Cookie-Alert/demo) (with Bootstrap 4)
 
 I unfortunately dont remeber the source of the cubes pattern :(
 If someone know, please email me or create an issue. I would love to credit the author.
