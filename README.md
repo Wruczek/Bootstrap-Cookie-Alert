@@ -14,7 +14,7 @@ I try to keep it up-to-date. Let me know if I forget to release an update.
 ## How to use
 #### 1. In the `head` of your document, include `cookiealert.css` **after Bootstrap**.
 ```html
-<link rel="stylesheet" href="cookiealert.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
 ```
 
 #### 2. Add the html markup:
@@ -32,6 +32,6 @@ I try to keep it up-to-date. Let me know if I forget to release an update.
 
 #### 3. Include the JavaScript after the html markup
 ```html
-<script src="cookiealert.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
 ```
 ### Take a look at [`demo.html`](https://github.com/Wruczek/Bootstrap-Cookie-Alert/blob/gh-pages/demo.html) for a working example
