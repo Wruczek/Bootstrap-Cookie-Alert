@@ -9,6 +9,10 @@
     var cookieAlert = document.querySelector(".cookiealert");
     var acceptCookies = document.querySelector(".acceptcookies");
 
+    if (!cookieAlert) {
+       return;
+    }
+
     cookieAlert.offsetHeight; // Force browser to trigger reflow (https://stackoverflow.com/a/39451131)
 
     // Show the alert if we cant find the "acceptCookies" cookie
