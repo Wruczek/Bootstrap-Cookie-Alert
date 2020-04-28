@@ -23,7 +23,7 @@ I try to keep it up-to-date. Let me know if I forget to release an update.
 <div class="alert text-center cookiealert" role="alert">
     <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website. <a href="https://cookiesandyou.com/" target="_blank">Learn more</a>
 
-    <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
+    <button type="button" class="btn btn-primary btn-sm acceptcookies">
         I agree
     </button>
 </div>
