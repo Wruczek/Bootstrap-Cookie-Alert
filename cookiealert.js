@@ -25,6 +25,9 @@
     acceptCookies.addEventListener("click", function () {
         setCookie("acceptCookies", true, 365);
         cookieAlert.classList.remove("show");
+
+        // dispatch the accept event
+        window.dispatchEvent(new Event("cookieAlertAccept"))
     });
 
     // Cookie functions from w3schools
