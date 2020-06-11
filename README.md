@@ -34,4 +34,15 @@ I try to keep it up-to-date. Let me know if I forget to release an update.
 ```html
 <script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
 ```
+
 ### Take a look at [`demo.html`](https://github.com/Wruczek/Bootstrap-Cookie-Alert/blob/gh-pages/demo.html) for a working example
+
+
+### Accept event
+If you need to, you can listen for the `cookieAlertAccept` event to get notified when the user accepts the cookies.
+
+```js
+window.addEventListener("cookieAlertAccept", function() {
+    alert("cookies accepted")
+})
+```
