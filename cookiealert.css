@@ -30,7 +30,7 @@
     text-decoration: underline
 }
 
-.cookiealert .acceptcookies {
+.cookiealert .acceptcookies,.denycookies {
     margin-left: 10px;
     vertical-align: baseline;
 }

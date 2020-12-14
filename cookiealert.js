@@ -7,7 +7,8 @@
     "use strict";
 
     var cookieAlert = document.querySelector(".cookiealert");
-    var acceptCookies = document.querySelector(".acceptcookies");
+	var acceptCookies = document.querySelector(".acceptcookies");
+	var denyCookies = document.querySelector(".denycookies");
 
     if (!cookieAlert) {
        return;
@@ -16,7 +17,7 @@
     cookieAlert.offsetHeight; // Force browser to trigger reflow (https://stackoverflow.com/a/39451131)
 
     // Show the alert if we cant find the "acceptCookies" cookie
-    if (!getCookie("acceptCookies")) {
+    if (getCookie("acceptCookies") == "") {
         cookieAlert.classList.add("show");
     }
 
@@ -28,7 +29,19 @@
 
         // dispatch the accept event
         window.dispatchEvent(new Event("cookieAlertAccept"))
-    });
+	});
+	
+	// When clicking on the deny button, create a 1 year
+	// cookie to remember user's choice and close the banner
+	if(denyCookies != undefined){
+		denyCookies.addEventListener("click", function () {
+			setCookie("acceptCookies", false, 365);
+			cookieAlert.classList.remove("show");
+	
+			// dispatch the accept event
+			window.dispatchEvent(new Event("cookieAlertDeny"))
+		});
+	}
 
     // Cookie functions from w3schools
     function setCookie(cname, cvalue, exdays) {
