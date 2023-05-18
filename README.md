@@ -2,6 +2,9 @@
 A simple, good looking cookie alert for Bootstrap. No dependencies required.<br>
 **We recommend using Bootstrap 4**, but Boostrap 3 should work fine as well.
 
+## Update ##
+You can use Bootstrap 5.3.0 now. The link in the demo.html includes v5.3.0-alpha.
+
 [**Demo**](https://wruczek.github.io/Bootstrap-Cookie-Alert/demo) (with Bootstrap 4)
 
 I unfortunately dont remeber the source of the cubes pattern :(
@@ -20,12 +23,19 @@ I try to keep it up-to-date. Let me know if I forget to release an update.
 #### 2. Add the html markup:
 ```html
 <!-- START Bootstrap-Cookie-Alert -->
-<div class="alert text-center cookiealert" role="alert">
-    <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website. <a href="https://cookiesandyou.com/" target="_blank">Learn more</a>
-
-    <button type="button" class="btn btn-primary btn-sm acceptcookies">
-        I agree
-    </button>
+<div class="container-fluid cookiealert" role="alert"">
+    <div class="row">
+        <div class="col-md-7 col-lg-9 cnt-container">
+            <p>Do you like cookies? &#x1F36A;</p>
+            <p>This Website uses cockies to provide its service and functionallity.</p>
+        </div>
+        <div class="col-md-5 col-lg-3 btn-container">
+            <a class="btn btn-secondary btn-sm acceptcookies" href="https://cookiesandyou.com/" target="_blank">Learn more</a>
+            <button type="button" class="btn btn-block btn-primary btn-sm acceptcookies">
+                I agree
+            </button>
+        </div>
+    </div>
 </div>
 <!-- END Bootstrap-Cookie-Alert -->
 ```
