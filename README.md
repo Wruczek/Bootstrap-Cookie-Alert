@@ -1,15 +1,15 @@
 # Bootstrap-Cookie-Alert
-A simple, good looking cookie alert for Bootstrap. No dependencies required.<br>
-**We recommend using Bootstrap 4**, but Boostrap 3 should work fine as well.
+A simple cookie alert for Bootstrap 5 and 4. No dependencies required.<br>
 
-[**Demo**](https://wruczek.github.io/Bootstrap-Cookie-Alert/demo) (with Bootstrap 4)
+[**Demo with Bootstrap 5**](https://wruczek.github.io/Bootstrap-Cookie-Alert/demo-bs5)
+&bull;
+[**Demo with Bootstrap 4**](https://wruczek.github.io/Bootstrap-Cookie-Alert/demo-bs4)
 
-I unfortunately dont remeber the source of the cubes pattern :(
+I unfortunately don't remember the source of the cubes pattern :(
 If someone know, please email me or create an issue. I would love to credit the author.
 
 ## npm package
-`npm i bootstrap-cookie-alert`<br>
-I try to keep it up-to-date. Let me know if I forget to release an update.
+`npm i bootstrap-cookie-alert`
 
 ## How to use
 #### 1. In the `head` of your document, include `cookiealert.css` **after Bootstrap**.
@@ -35,7 +35,7 @@ I try to keep it up-to-date. Let me know if I forget to release an update.
 <script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
 ```
 
-### Take a look at [`demo.html`](https://github.com/Wruczek/Bootstrap-Cookie-Alert/blob/gh-pages/demo.html) for a working example
+### Take a look at [`demo-bs5.html`](https://github.com/Wruczek/Bootstrap-Cookie-Alert/blob/gh-pages/demo-bs5.html) for a working example
 
 
 ### Accept event

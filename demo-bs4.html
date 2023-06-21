@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap 4.6.2 cookie alert</title>
+
+    <!-- Bootstrap 4.6.2 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/css/bootstrap.min.css"
+          integrity="sha512-rt/SrQ4UNIaGfDyEXZtNcyWvQeOq0QLygHluFQcSjaGB04IxWhal71tKuzP6K8eYXYB6vJV4pHkXcmFGGQ1/0w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- cookiealert styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="card" style="margin-top: 70px">
+        <div class="card-body">
+            <div id="fillme"></div>
+        </div>
+    </div>
+
+</div>
+
+<!-- START Bootstrap-Cookie-Alert -->
+<div class="alert text-center cookiealert" role="alert">
+    <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website. <a href="https://cookiesandyou.com/" target="_blank">Learn more</a>
+
+    <button type="button" class="btn btn-primary btn-sm acceptcookies">
+        I agree
+    </button>
+</div>
+<!-- END Bootstrap-Cookie-Alert -->
+
+<!-- JAVASCRIPT -->
+
+<!-- Only for the demo -->
+<script>
+    for (var i = 1; i <= 150; i++)
+        document.querySelector("#fillme").innerHTML += "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ";
+</script>
+
+<!-- Include cookiealert script -->
+<script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
+
+</body>
+</html>
